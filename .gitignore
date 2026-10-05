@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Herramientas
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Datos personales: exportaciones de entrada y resultados
+/convert/
+/exports/
+
+# No imprescindible para el funcionamiento de la aplicación: solo en local.
+# Se versionan únicamente src/, pyproject.toml, README.md y este archivo.
+/tests/
+/.github/
+/changelog.md
+/TODO.md
